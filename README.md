@@ -5,6 +5,6 @@ I needed a way to easily collect this information since I always needed to alter
 before going surfing or diving.
 
 the scraping is done using Beautiful Soup 4 in the Python utils.py file.
-I've used django in-order to allow my progressive web application access to the information.
+I've used django in-order to allow my progressive web application access to the scraped information.
 
 
