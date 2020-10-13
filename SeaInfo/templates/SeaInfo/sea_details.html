@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container" >
+  <div class="row justify-content-center">
+    <div class="card mb-4 shadow-sm mt-4" >
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Sea details</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">{{wave_info.date_time}}</h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>{{wave_info.wave_hight}}</li>
+          <li>{{wave_info.wave_temp}}</li>
+          <li>{{wave_info.wave_direction}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% endblock %}

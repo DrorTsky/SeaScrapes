@@ -1,0 +1,52 @@
+.dropdown-menu {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-secondary{
+    margin-top: 5px;
+}
+
+.days {
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.current{
+    align-content: center;
+}
+
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+}
+
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.card-text{
+    font-size:13px;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.card-title .forecast{
+    font-size: small;
+}
