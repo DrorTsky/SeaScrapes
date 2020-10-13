@@ -7,3 +7,4 @@ urlpatterns = [
     path('wave_info/', views.wave_view, name='wave_forecast'),
     path('forecast/', views.forecast_view, name='forecast'),
 ]
+
