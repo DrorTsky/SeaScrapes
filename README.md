@@ -7,4 +7,6 @@ before going surfing or diving.
 the scraping is done using Beautiful Soup 4 in the Python utils.py file.
 I've used django in-order to allow my progressive web application access to the scraped information.
 
+the app itself was uplaoded to Heroku and is using postgresql for the database.
 
+https://seascrapes.herokuapp.com/SeaInfo/
