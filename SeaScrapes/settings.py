@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '_+&2e@ch9oh!5#pyj6&s9@^k8xb!qy
 # DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['seascrapes.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['seascrapes.herokuapp.com','127.0.0.1','0.0.0.0']
 
 
 # Application definition
@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'SeaScrapes.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd9m2q1ek0jf2u5',
+        'HOST': 'ec2-34-231-56-78.compute-1.amazonaws.com',
+        'POST': 5432,
+        'USER':'btgtwyzlmtdbph',
+        'PASSWORD': '8ca83ac0f80f67c2edaf74e1216a24b8e9b04efb0aec37d70185e44b238f7150'
     }
 }
 
