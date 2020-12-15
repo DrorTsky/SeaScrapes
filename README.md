@@ -11,3 +11,10 @@ It was designed using bootstrap and the site runs using vanilla js and django te
 the app itself was uplaoded to Heroku and is using postgresql for the database.
 
 https://seascrapes.herokuapp.com/SeaInfo/
+
+Information taken from a buoy near Ashdod
+![buoy](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_details.png)
+Wave and wind maps of the mediterranean sea
+![med](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_seaMaps.png)
+ten day forecast for Ashdod
+![weather](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_weather.png)
