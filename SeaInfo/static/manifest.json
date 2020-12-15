@@ -9,6 +9,11 @@
     "orientation": "portrait-primary",
     "icons": [
         {
+            "src": "icons/16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
             "src": "icons/72.png",
             "type": "image/png",
             "sizes": "72x72"
