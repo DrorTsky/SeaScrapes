@@ -12,13 +12,6 @@ the app itself was uplaoded to Heroku and is using postgresql for the database.
 
 https://seascrapes.herokuapp.com/SeaInfo/
 
-Information taken from a buoy near Ashdod </br>
-![buoy](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_details.png)</br>
-Wave and wind maps of the mediterranean sea</br>
-![med](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_seaMaps.png)</br>
-ten day forecast for Ashdod</br>
-![weather](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_weather.png)</br>
-
 Information taken from a buoy near Ashdod  | Wave and wind maps of the mediterranean sea | ten day forecast for Ashdod
 ------------ | ------------- | -------------
 ![buoy](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_details.png) | ![med](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_seaMaps.png) | ![weather](https://github.com/DrorTsky/SeaScrapes/blob/main/images/Scrapes_weather.png)
